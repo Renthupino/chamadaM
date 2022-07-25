@@ -1,0 +1,99 @@
+*{
+    font-size: 20px;
+    padding: 0;
+    border-width: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: Cyber;
+    src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+    font-display: swap;
+  }
+
+:root{
+    --cor-principal: #64ade6;
+    --cor-principal-escura: #0769B3;
+    --cor-principal-clara: #9ED5FF;
+    --cor-secundaria:#B37C29;
+    --cor-secundaria-clara: #FFCF86;
+    --cor-texto-claro:#EEEEEE;
+    --cor-fundo-escuro: #282831;
+}
+
+body{
+    background-color: var(--cor-principal);
+    color: var(--cor-texto-claro);
+    font-family: 'Cyber', sans-serif;
+
+}
+
+h1, h2{
+
+    text-align: center;
+
+}
+main{
+    background-color: var(--cor-principal-escura);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+table{
+
+    width: 100%;
+
+}
+
+main > button{
+    color: var(--cor-secundaria-clara);
+    background-color: var(--cor-fundo-escuro);
+
+    font-weight: bolder;
+    padding: .5em;
+    border-radius: 8px;
+    float: left;
+
+
+}
+
+button:hover{
+    border-radius: 0%;
+
+}
+
+.btn-padrao{
+    color: var(--cor-secundaria-clara);
+    background-color: var(--cor-fundo-escuro);
+    font-weight: bolder;
+    padding: .5em;
+    border-radius: 8px;
+
+}
+
+.modal-content{
+
+    background-color: var(--cor-principal-clara);
+    color: var(--cor-fundo-escuro);
+
+}
+
+.modal-header{
+
+    background-color: var(--cor-principal-escura);
+    color: var(--cor-texto-claro);
+
+
+}
+
+
+.close{
+
+    color: var(--cor-secundaria);
+
+
+}
+
+
